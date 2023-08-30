@@ -16,7 +16,7 @@
         android:layout_marginEnd="@dimen/dimen_15_dp"
         android:text="Notes"
         android:textColor="@color/white"
-        android:textSize="@dimen/dimen45_sp"
+        android:textSize="@dimen/dimen_45_sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

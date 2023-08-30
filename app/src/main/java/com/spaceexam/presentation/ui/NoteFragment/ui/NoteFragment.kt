@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.spaceexam.databinding.FragmentNoteBinding
+import com.spaceexam.presentation.model.NoteUIModel
 import com.spaceexam.presentation.ui.NoteFragment.viewmodel.NoteViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModelForClass
 
@@ -26,13 +27,13 @@ class NoteFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        
         val title = binding?.titleEditText?.text.toString()
         val description = binding?.noteEditText?.text.toString()
         setNavigation()
 
     }
 
-    
 
     private fun setNavigation(){
         binding?.backButton?.setOnClickListener {
