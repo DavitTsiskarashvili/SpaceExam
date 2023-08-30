@@ -1,0 +1,17 @@
+package com.spaceexam.presentation.ui.activity
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.spaceexam.R
+import com.spaceexam.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+    }
+}
