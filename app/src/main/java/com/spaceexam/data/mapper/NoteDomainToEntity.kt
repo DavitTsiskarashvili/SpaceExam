@@ -1,6 +1,7 @@
 package com.spaceexam.data.mapper
 
 import com.spaceexam.data.local.entity.NoteEntity
+import com.spaceexam.data.mapper.base.Mapper
 import com.spaceexam.domain.model.NoteDomainModel
 
 class NoteDomainToEntity : Mapper<NoteDomainModel, NoteEntity> {

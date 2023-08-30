@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toTopOf="@id/addButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titleTextView"
-        tools:listitem="@layout/subject_item" />
+        tools:listitem="@layout/note_item" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/addButton"
